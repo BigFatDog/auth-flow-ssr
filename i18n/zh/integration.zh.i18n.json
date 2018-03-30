@@ -1,0 +1,105 @@
+{
+  "integration": {
+    "inspector": {
+       "reserveOutput": {
+          "label": "输出",
+          "tooltip": "输出地址"
+       },
+      "reserveForceCompute": {
+          "label": "强制计算",
+          "tooltip": "强制计算"
+      },
+      "reserveStorageLevel": {
+        "label": "存储级别",
+        "tooltip": "存储级别"
+      },
+      "accessInput": {
+        "label": "输入",
+        "tooltip": "缓存地址全路径"
+      },
+      "access": "访问缓存",
+      "reserve": "保留缓存"
+    },
+    "toolbar": {
+      "delete": {
+        "title": "删除设计稿?",
+        "text": "删除后不可恢复!",
+        "delete": "删除",
+        "cancel": "取消",
+        "deleted": "完成!",
+        "deletedResult": "您的设计稿已删除."
+      },
+      "save": {
+        "title": "完成",
+        "text": "请到统计中查看生成的图形",
+        "newChartTitle": "新图形"
+      },
+      "execution": {
+        "title": "完成",
+        "error": "错误",
+        "text": "命令已执行",
+        "confirmTitle": "确认执行?",
+        "confirmText": "系统会按照配置执行命令",
+        "confirmButton": "确认",
+        "cancelButton": "取消",
+        "noChart": "当前设计中没有配置图形，无法导出",
+        "shallExport": "当前设计中配置了图形，请使用导出功能",
+        "chartTitle": "图形命名",
+        "newAnalysisTitle": "创建统计的标题",
+        "chartTitleNotEmpty": "名字不能为空",
+        "insufficientPrivilege": "该图形解锁后方可使用",
+        "noConfig": "设计稿中没有可执行操作",
+        "jobFailure": "后台任务执行失败， 请重新检查设计",
+        "tooManyChartsErr": "同一个输出连接上只能有一个图形",
+        "needSave": "请先保存设计稿",
+        "waitRunning": "此设计稿正在执行中，请等待结束",
+        "hdfsPath": "HDFS 路径或文件",
+        "hdfsPathNotEmpty": "文件或路径名不能为空"
+      }
+    },
+    "modal": {
+      "settings": "设置",
+      "chooseInputConnector": "选择输入连接器",
+      "chooseOutputConnector": "选择输出连接器",
+      "inspectInputConnector": "配置输入连接器",
+      "inspectOutputConnector": "配置输出连接器",
+      "chooseChart": "选择图形",
+      "insertOperation": "数据操作",
+      "sparkJobConfig": "Spark 配置预览",
+      "applySettings": "应用设置"
+    },
+
+    "title": {
+      "save": "保存",
+      "saveAs": "另存为",
+      "delete": "删除",
+      "favorite": "添加到收藏",
+      "removeFavorite": "移出收藏",
+      "execute": "执行",
+      "config": "查看配置",
+      "exportToCharts": "导出图形",
+      "zoomIn": "放大",
+      "zoomOut": "缩小",
+      "undo": "撤销",
+      "redo": "重做",
+      "input": "输入连接器",
+      "output": "输出连接器",
+      "operation": "算法",
+      "reserve": "保存到缓存",
+      "access": "访问缓存",
+      "chart": "图形",
+      "designUpdatedAt": "设计稿最后一次保存于: ",
+      "downloadDesign": "导出",
+      "uploadDesign": "导入",
+      "downloadHDFS": "下载HDFS",
+      "downloadHDFSRunning": "HDFS下载后台运行中，请稍候...",
+      "downloadHDFSInvalid": "HDFS路径无效， 请联系管理员",
+      "downloadBegin": "设计下载中...",
+      "downloadErr": "请保存当前设计后再试",
+      "uploadNotJson": "只能上传JSON格式文件",
+      "invalidJson": "文件内容无效",
+      "uploadDoneTitle": "导入完成",
+      "uploadDone": "新的设计稿可以使用"
+    }
+  }
+}

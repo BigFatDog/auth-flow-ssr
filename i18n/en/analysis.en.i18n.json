@@ -1,0 +1,25 @@
+{
+  "analysis": {
+    "general": " analysis",
+    "history": "history",
+    "reviewData": "Review Data",
+    "breakdownBy": " breakdown by ",
+    "averageBy": " average by ",
+    "over": " over ",
+    "count": " distribution",
+    "compare_year": "Year Comparison",
+    "compare_period": "Period Comparison",
+
+    // legacy
+    "domain": "Domain",
+    "source": "Source",
+    "sourceData": "Source Data",
+
+    "newAnalysis": "New Analysis",
+    "recommendation": "Recommendations",
+    "selectDomain": "Select One Domain",
+    "selectSource": "Select One Source",
+    "selectSourceData": "(Select One)",
+    "previewCustomization": "Preview Customization"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "account_usage": {
+    "hdfs_space":"User Upload Space"
+  },
+
+  "data_source": {
+    "my_data_sources": "My Data Sources",
+    "add_new_data_source": "Add a New Data Source",
+    "my_connections": "My Connections",
+    "add": "Add",
+    "delete": "Delete",
+    "edit": "Edit",
+    "upload": "Upload",
+    "filter": {
+      "filter": "Filter ...",
+      "search": "Search ..."
+    },
+    "category": {
+      "title": "Category",
+      "internal": "Internal Connection",
+      "database": "Database",
+      "nosql": "NoSQL",
+      "hadoop": "Hadoop",
+      "cloud": "Cloud"
+    },
+    "connection": {
+      "title": "Connection",
+      "system": "Internal HDFS",
+      "manage": "Manage My Connections"
+    },
+    "format": {
+      "title": "Format",
+      "csv": "CSV",
+      "avro": "Avro",
+      "txt": "Text",
+      "commonlog": "Common Log",
+      "others": "Unknown"
+    },
+    "ds_table": {
+      "brand": "Brand",
+      "name": "Name",
+      "description": "Description",
+      "connection": "Connection",
+      "modified_date": "Update Time",
+      "operation": {
+        "title": "Operation",
+        "edit": "Modify",
+        "remove": "Remove"
+      }
+    },
+    "filter_bar": {
+      "name": "Filter",
+      "placeholder": "Filter ..."
+    },
+    "button": {
+      "add": "New",
+      "cancel": "Cancel",
+      "validate": "Validate",
+      "save": "Save",
+      "start": "Start",
+      "submit": "Submit",
+      "previous": "Previous",
+      "next": "Next",
+      "close": "Close"
+    },
+    "step1": {
+      "title": "Step1. Connection",
+      "title_file": "Step1. Upload File",
+      "upload_file_name": "File Name",
+      "upload_file_type": "File Type",
+      "upload_file_button": "Select File",
+      "upload_file_drop_now": "Please release the mouse",
+      "upload_file_drop_here": "Drop Area",
+      "upload_file_exceed_limit_title": "Large file detected",
+      "upload_file_exceed_limit_text": "Continue to upload this file? File size is : ",
+      "upload_file_exceed_limit_confirm": "Continue Upload",
+      "ds_name": "Name",
+      "ds_description": "Description",
+      "conn_brand": "Brand",
+      "conn_name": "Connection",
+      "table_name": "Connection Name",
+      "table_description": "Description",
+      "table_metadata": "Metadata",
+      "msg": {
+        "create_connection": "Please create a connection before creating data source!",
+        "select_connection": "Please select a connection!",
+        "select_connection_with_metadata": "Please select a connection with MetaData"
+      }
+    },
+    "step2": {
+      "title": "Step2. Table",
+      "title_header": "Step2. File Header",
+      "uploaded_path": "HDFS Path",
+      "ds_schema": "Schema",
+      "ds_database": "Database",
+      "ds_table": "Table",
+      "ds_url": "URL (Full Path)",
+      "urlTitle": " Step2. URL",
+      "schema_title": "Schema",
+      "table_title": "Table",
+      "table_name": "Table Name",
+      "collection_name": "Collection Name",
+      "table_description": "Comment",
+      "table_columns": "Columns",
+      "table_row_count": "Row Count",
+      "column_no": "No.",
+      "column_original_name": "Default Name",
+      "column_label": "Label",
+      "data_type": "Data Type",
+      "raw_data": "Sample Data",
+      "low_value": "Low Value",
+      "high_value": "High Value",
+      "msg": {
+        "select_table": "Please select a table",
+        "invalidURL": "Cannot fetch metadata from URL, please check."
+      }
+    },
+    "step3": {
+      "title": "Step3. Column",
+      "schema_title": "Schema",
+      "database_title": "Database",
+      "title_header": "Step3. Header",
+      "table_title": "Table",
+      "collection_name": "Collection",
+      "column_title": "Column",
+      "column_index": "No.",
+      "column_name": "Name",
+      "column_label": "Label",
+      "data_type": "Data Type",
+      "is_nullable": "Nullable",
+      "low_value": "Low Value",
+      "high_value": "High Value",
+      "default_value": "Default",
+      "raw_data": "Raw Data",
+      "msg": {
+        "blank_label": "Blank Label",
+        "duplicated_label": "Duplicated Label"
+      }
+    },
+    "msg": {
+      "size": "Size",
+      "type": "Type",
+      "connection_brand": "Connection Type",
+      "upload": {
+        "title": "File Upload",
+        "uploading": "Uploading ...",
+        "failed": "Failed Upload!",
+        "success": "Upload Done !",
+        "file_name": "File Name",
+        "file_size": "File Size",
+        "btn_cancel": "Cancel",
+        "btn_upload": "Start"
+      },
+      "close": {
+        "confirm": {
+          "title": "Are your sure to close dialog?",
+          "text": "The current data would be lost without saving!",
+          "btn_cancel": "Cancel",
+          "btn_confirm": "Yes, Close dialog!"
+        }
+      },
+      "create": {
+        "no_connection": {
+          "title": "No Available Connection",
+          "text": "Would you like to create a new connection first ?",
+          "btn_cancel": "Cancel",
+          "btn_confirm": "Create Connection"
+        },
+        "done": "New Data Source Created",
+        "error_connection": "The Connection is broken!",
+        "error_same_name": "The name is used by other datasource!"
+      },
+      "update": {
+        "no_connection": {
+          "title": "No Available Connection",
+          "text": "Would you like to create a new connection first ?",
+          "btn_cancel": "Cancel",
+          "btn_confirm": "Create Connection"
+        },
+        "done": "The Data Source is Updated",
+        "error_connection": "The Connection is broken!",
+        "error_same_name": "The new name is used already by other datasource!"
+      },
+      "stats": {
+        "confirm": {
+          "title": "Stats this Data Source?",
+          "text_name": "Name",
+          "text_conn": "Connection",
+          "text_type": "Type",
+          "btn_cancel": "Cancel",
+          "btn_confirm": "Yes, Stat it!"
+        },
+        "done": "The Data Source is stated !",
+        "error": "The stat operation is finished with some error !",
+        "error_connection": "The Connection is broken!"
+      },
+      "clone": {
+        "confirm": {
+          "title": "Clone the Data Source?",
+          "text_name": "Name",
+          "text_conn": "Connection",
+          "text_type": "Type",
+          "btn_cancel": "Cancel",
+          "btn_confirm": "Yes, Clone it!"
+        },
+        "done": "The Data Source is Cloned!",
+        "error_connection": "The Connection is broken!",
+        "error_same_name": "The new name is used already by other datasource!"
+      },
+      "save": {
+        "confirm": {
+          "title": "Save the Data Source?",
+          "text_name": "Name",
+          "text_conn": "Connection",
+          "text_type": "Type",
+          "btn_cancel": "Cancel",
+          "btn_confirm": "Yes, Save it!"
+        },
+        "done": "The Data Source is created!",
+        "error_connection": "The Connection is broken!",
+        "error_same_name": "The Data Source name is used already by other datasource!"
+      },
+      "remove": {
+        "confirm": {
+          "title": "Remove the Data Source?",
+          "text_name": "Name",
+          "text_conn": "Connection",
+          "text_type": "Type",
+          "btn_cancel": "Cancel",
+          "btn_confirm": "Yes, Remove it!"
+        },
+        "done": "The Data Source is removed !",
+        "error": "Failed to remove the Data Source!"
+      }
+    }
+  }
+}

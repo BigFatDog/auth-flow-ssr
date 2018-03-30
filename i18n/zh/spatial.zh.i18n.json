@@ -1,0 +1,25 @@
+{
+  "spatial": {
+    "map": {
+      "streetClassic": "经典街道地图",
+      "light": "浅色",
+      "comic": "插画",
+      "dark": "黑色",
+      "emerald": "祖母绿",
+      "highContrast": "高对比",
+      "outdoors": "户外",
+      "pencil": "铅笔手绘",
+      "pirates": "海盗",
+      "bikeAndHike": "远足和骑行",
+      "satellite": "卫星图",
+      "satelliteStreets": "卫星街道图",
+      "streets": "街道地图",
+      "wheatpaste": "浓缩"
+    },
+
+    "country": {
+      "china": "中国",
+      "us": "美国"
+    }
+  }
+}

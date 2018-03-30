@@ -1,0 +1,68 @@
+import React from 'react';
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+import { compose } from 'redux';
+import Router from 'next/router';
+import {
+  makeSelectUserId,
+  makeSelectUserName,
+  makeSelectIsAuthenticated,
+  makeSelectIsAuthenticating,
+} from './selector';
+
+import saga from './saga';
+import injectSaga from '../runtime/injectSaga';
+import Loading from '../../components/Loading';
+
+export default function requireAuthentication(Component) {
+  class AuthenticatedComponent extends React.Component {
+    componentWillMount() {
+      this.checkAuth();
+    }
+
+    componentWillReceiveProps() {
+      this.checkAuth();
+    }
+
+    checkAuth() {
+      if (process.browser) {
+        if (
+          localStorage.getItem('token') === null ||
+          localStorage.getItem('refreshToken') === null
+        ) {
+          Router.push(`/login`);
+        } else {
+          if (
+            this.props.isAuthenticating === false &&
+            this.props.isAuthenticated === false
+          ) {
+            Router.push(`/login`);
+          }
+        }
+      }
+    }
+
+    render() {
+      return (
+        <div>
+          {this.props.isAuthenticating === true ? (
+            <Loading />
+          ) : (
+            <Component {...this.props} />
+          )}
+        </div>
+      );
+    }
+  }
+
+  const mapStateToProps = createStructuredSelector({
+    userName: makeSelectUserName(),
+    userId: makeSelectUserId(),
+    isAuthenticated: makeSelectIsAuthenticated(),
+    isAuthenticating: makeSelectIsAuthenticating(),
+  });
+
+  const withConnect = connect(mapStateToProps, null);
+  const withSaga = injectSaga({ key: 'verify', saga });
+  return compose(withConnect, withSaga)(AuthenticatedComponent);
+}

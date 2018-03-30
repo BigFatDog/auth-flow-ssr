@@ -1,0 +1,243 @@
+{
+  "data_connection": {
+    "select_one": "(Select One)",
+    "InternalHDFS": "In-house HDFS",
+    "InternalSpark": "In-house Spark",
+    "InternalDataSource": "Data Source Service",
+    "sharedHDFS": "系统HDFS",
+    "defaultHDFSConnection": "Shared Connection",
+    "add_new_connection": "Add a New Connection",
+    "my_connections": "My Connections",
+    "invalid": "[Removed]",
+    "add": "Add",
+    "delete": "Delete",
+    "edit": "Edit",
+    "upload": "Upload",
+    "type": "Type",
+    "brand_select": "Type",
+    "category": {
+      "title": "Category",
+      "internal": "Internal Connection",
+      "database": "Database",
+      "nosql": "NoSQL",
+      "hadoop": "Hadoop",
+      "cloud": "Cloud"
+    },
+
+    "brand": {
+      "title": "Connection Type",
+      "service": "Service",
+      "spark": "Spark",
+
+      "aster": "AsterData",
+      "db2": "IBM DB2",
+      "mysql": "MySQL",
+      "mariadb": "MariaDB",
+      "oracle": "Oracle",
+      "postgresql": "PGSQL",
+      "sqlserver": "SQL Server",
+      "teradata": "Teradata",
+      "vertica": "Vertica",
+
+      "cassandra": "Cassandra",
+      "couchbase": "Couchbase",
+      "mongodb": "Mongo DB",
+      "redis": "Redis",
+
+      "hbase": "HBase",
+      "hcatalog": "HCatalog",
+      "hdfs": "HDFS",
+      "hive": "Hive",
+      "hdfs_upload": "Upload",
+
+      "dynamodb": "DynamoDB",
+      "simpledb": "SimpleDB",
+      "s3": "S3",
+      "amazon_mysql_rds": "Amazon MySQL",
+      "amazon_oracle_rds": "Amazon Oracle",
+      "amazon_sqlserver_rds": "Amazon SQL Server",
+      "aliyun_mysql_rds": "Aliyun MySQL",
+      "aliyun_postgresql_rds": "Aliyun PGSQL"
+    },
+    "name": "Name",
+    "description": "Description",
+    "owner": "Owner",
+    "size": "Size",
+    "created_date": "Created Date",
+    "modified_date": "Modified Date",
+    "input_format": "Format",
+    "format": {
+      "title": "Format",
+      "csv": "CSV",
+      "avro": "Avro",
+      "txt": "Text",
+      "commonlog": "Common Log",
+      "others": "Unknown"
+    },
+
+    "hasMetadata": {
+      "title": "Metadata",
+      "true": "Yes",
+      "false": "No"
+    },
+
+    "operation": {
+      "title": "Action",
+      "add": "Add a New Data Connection",
+      "edit": "Modify Data Connection Configuration",
+      "update": "Update",
+      "save": "Save",
+      "remove": "Remove the Data Source",
+      "upload": "Upload",
+      "import": "Import Data Source Configuration",
+      "export": "Export Data Source Configuration",
+      "validation": "Validation",
+      "connect": "Connect",
+      "valid_manual": "Manual",
+      "valid_auto": "Automatic",
+      "back_to_my_data_source": "Go to My Data Sources",
+      "back_to_my_connection": "Go to My Connection"
+    },
+    "config": {
+      "host": "Host",
+      "port": "Port",
+      "schema": "Schema",
+      "database": "Database Name",
+      "username": "Username",
+      "password": "Password",
+      "timeout": "Time-out(Second)",
+      "protocol": "Protocol",
+      "hosts": "Hosts",
+      "domains": "Domains",
+      "domain_ranges": "Domain Ranges",
+      "uri": "URI",
+      "url": "URL",
+      "auth_uri": "Auth URI",
+      "bucket": "Bucket",
+      "conf_path": "Conf Path",
+      "input_path": "Input Path",
+      "input_format": "Input Format",
+      "data_schema": "Data Schema",
+      "credentials_file": "Credentials File",
+      "maxReader": "Max Reader Connections",
+      "maxWriter": "Max Writer Connections"
+    },
+
+    "button": {
+      "cancel": "Cancel",
+      "create": "Create",
+      "delete": "Remove",
+      "confirm": "Confirm"
+    },
+
+    "validate": {
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Validate"
+      },
+
+      "msg": {
+        "title": "Try to validate the remote connection?",
+        "host": "Remote Host",
+        "brand": "Connection Type",
+        "connecting": "Connecting ..."
+      }
+    },
+
+    "create": {
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Create"
+      },
+
+      "msg": {
+        "title": "Create the Connection?",
+        "host": "Remote Host",
+        "brand": "Connection Type",
+        "progressing": "Creating ...",
+        "done": "Connection Created"
+      }
+    },
+
+    "update": {
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Update"
+      },
+
+      "msg": {
+        "title": "Update the Connection?",
+        "host": "Remote Host",
+        "brand": "Connection Type",
+        "progressing": "Updating ...",
+        "done": "Connection Updated!"
+      }
+    },
+
+    "update_meta": {
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Update"
+      },
+
+      "title": {
+        "ok": "Success",
+        "ng": "Failed"
+      },
+
+      "msg": {
+        "ok": "Connection MetaData Updated!",
+        "ng": "Failed Update MetaData!",
+        "host": "Remote Host",
+        "brand": "Connection Type",
+        "progressing": "Updating ...",
+        "conn_ng": "Connection is broken",
+        "null": "Can't get MetaData"
+      }
+    },
+
+    "msg": {
+      "title": {
+        "error_server": "Internal Server Error",
+        "error_connection": "Connection is broken",
+        "unsupported": "Not Supported Yet",
+        "ok": "Success",
+        "ng": "Failed",
+        "error": "Error",
+        "info": "Information",
+        "done": "Done",
+        "warning": "Attention",
+        "confirm": "Confirm",
+        "confirm_delete": "Are you sure to remove?"
+      },
+
+      "validate_con_ok": "Connected!",
+      "validate_con_ng": "Failed connecting!",
+      "create_con_ok": "Data Connection is saved!",
+      "create_con_ng": "Failed saving the connection!",
+      "update_ok": "Data updated!",
+      "update_ng": "Data update is failed!",
+      "update_meta_ok": "MetaData is updated!",
+      "update_meta_ng": "Can't get the MetaData!",
+      "unsupported_connection": "Unsupported Connection Type!",
+      "exist_same_name_connection": "The connection name is used by other connection!",
+      "delete_con_ok": "Data Connection is removed!",
+      "not_able_recovery_deleted_con": "The deleted Connection can not be recovered!",
+
+      "common": {
+        "insert": {
+          "done": "Data is saved!",
+          "error": "Failed saving data!"
+        },
+        "update": {
+          "done": "Data is updated!",
+          "error": "Failed updating data!"
+        },
+        "delete": {
+          "done": "Data is removed!",
+          "error": "Failed removing!"
+        }
+      }
+    }
+  }
+}

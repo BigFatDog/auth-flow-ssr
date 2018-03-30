@@ -1,0 +1,35 @@
+{
+  "autoform": {
+    "messages": {
+      "required": "[label] 是必填项目",
+      "minString": "[label] 至少[min]个字符",
+      "maxString": "[label] 不能超过[max]个字符",
+      "minNumber": "[label] 最小值为[min]",
+      "maxNumber": "[label] 不能超过[max]",
+      "minDate": "[label] 应该早于[min]",
+      "maxDate": "[label] 不能晚于[max]",
+      "badDate": "[label] 不是合法的日期",
+      "minCount": "应至少设定[minCount]个值",
+      "maxCount": "设定值不应超过[maxCount]个",
+      "noDecimal": "[label] 必须是整数",
+      "notAllowed": "[value] 不是允许的值",
+      "expectedString": "[label] 是个字符串",
+      "expectedNumber": "[label] 是个数字",
+      "expectedBoolean": "[label] 是个布尔值",
+      "expectedArray": "[label] 应该是数组",
+      "expectedObject": "[label] 应该是个对象",
+      "expectedConstructor": "[label] 应该是个 [type]",
+      "regEx": "[label] 正则表达式验证失败",
+      "RegEx_Email": "[label] 应该是合法的电子邮件地址",
+      "RegEx_WeakEmail": "[label] 应该是合法的电子邮件地址",
+      "RegEx_Domain": "[label] 应该是合法的域名",
+      "RegEx_WeakDomain": "[label] 应该是合法的域名",
+      "RegEx_IP": "[label] 应该是合法的IPv4/IPv6地址",
+      "RegEx_IPv4": "[label] 应该是合法的IPv4地址",
+      "RegEx_IPv6": "[label] 应该是合法的IPv6地址",
+      "RegEx_Url": "[label] 应该是合法的URL",
+      "RegEx_Id": "[label] 应该是字母数字组成的ID",
+      "keyNotInSchema": "[key] 在schema中不存在"
+    }
+  }
+}

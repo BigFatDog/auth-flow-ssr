@@ -1,0 +1,104 @@
+{
+  "integration": {
+    "inspector": {
+      "reserveOutput": {
+        "label": "Output",
+        "tooltip": "Output path"
+      },
+      "reserveForceCompute": {
+        "label": "Force Compute",
+        "tooltip": "Force compute"
+      },
+      "reserveStorageLevel": {
+        "label": "Storage Level",
+        "tooltip": "Storage Level"
+      },
+      "accessInput": {
+        "label": "input",
+        "tooltip": "input path"
+      },
+      "access": "Access",
+      "reserve": "Reserve"
+    },
+    "toolbar": {
+      "delete": {
+        "title": "Are you sure?",
+        "text": "You will not be able to recover this design!",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "deleted": "Deleted!",
+        "deletedResult": "Your design has been deleted."
+      },
+      "save": {
+        "title": "Done",
+        "text": "Chart has been generated",
+        "newChartTitle": "New Chart"
+      },
+      "execution": {
+        "title": "Done",
+        "error": "Error",
+        "text": "All commands have been executed",
+        "confirmTitle": "Execute commands?",
+        "confirmText": "Your Configuration will be executed",
+        "confirmButton": "Confirm",
+        "cancelButton": "Cancel",
+        "noChart": "This function requires at least one chart config in your design",
+        "shallExport": "Your design contains charts, Please use export function",
+        "chartTitle": "Chart Title",
+        "newAnalysisTitle": "New Analysis Name",
+        "chartTitleNotEmpty": "Title cannot be empty",
+        "insufficientPrivilege": "You need to unlock this chart to use",
+        "noConfig": "No job is found within your design",
+        "jobFailure": "Execution failed, please check your design",
+        "tooManyChartsErr": "Illegal to have multiple charts in a single sub job",
+        "needSave": "Please save design",
+        "waitRunning": "Design is being executed, please wait",
+        "hdfsPath": "HDFS file name or path",
+        "hdfsPathNotEmpty": "name or path cannot be empty"
+      }
+    },
+    "modal": {
+      "settings": "Settings",
+      "chooseInputConnector": "Insert Input Connector",
+      "chooseOutputConnector": "Insert Output Connector",
+      "inspectInputConnector": "Inspect Input Connector",
+      "inspectOutputConnector": "Inspect Output Connector",
+      "chooseChart": "Choose Chart",
+      "insertOperation": "Insert Operation",
+      "sparkJobConfig": "Spark Job Configuration",
+      "applySettings": "Apply Settings"
+    },
+    "title": {
+      "save": "Save",
+      "saveAs": "Save As",
+      "delete": "Delete",
+      "favorite": "Mark as favourite",
+      "removeFavorite": "Remove from favorite",
+      "execute": "Execute",
+      "config": "Inspect Configuration",
+      "exportToCharts": "Export to Charts",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "undo": "Undo",
+      "redo": "Redo",
+      "input": "Input Connector",
+      "output": "Output Connector",
+      "operation": "Operation",
+      "reserve": "Reserve",
+      "access": "Access",
+      "chart": "Charts",
+      "designUpdatedAt": "Design was updated at: ",
+      "downloadDesign": "Export",
+      "downloadHDFS": "Download HDFS",
+      "downloadHDFSRunning": "Your HDFS download is running in background, please wait...",
+      "downloadHDFSInvalid": "Invalid HDFS path",
+      "uploadDesign": "Import",
+      "downloadBegin": "Your Download has begun...",
+      "downloadErr": "No design has been found, please save current design and try again",
+      "uploadNotJson": "Only JSON files are accepted",
+      "invalidJson": "Invalid JSON format",
+      "uploadDoneTitle": "Done",
+      "uploadDone": "Design is ready to use"
+    }
+  }
+}

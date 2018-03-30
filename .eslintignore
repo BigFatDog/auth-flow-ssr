@@ -1,0 +1,4 @@
+routes.js
+node_modules/*
+.next/*
+tools/*

@@ -1,0 +1,25 @@
+{
+  "analysis": {
+    "general": "分析",
+    "history": "历史趋势",
+    "reviewData": "查看数据",
+    "breakdownBy": "分析",
+    "averageBy": "平均",
+    "over": "趋势",
+    "count": "分布",
+    "compare_year": "同比",
+    "compare_period": "环比",
+
+    // legacy
+    "domain": "领域",
+    "source": "数据源",
+    "sourceData": "数据",
+
+    "newAnalysis": "新建分析(1)",
+    "recommendation": "推荐",
+    "selectDomain": "选择一个领域",
+    "selectSource": "选择一个数据源",
+    "selectSourceData": "(选择...)",
+    "previewCustomization": "自定义预测"
+  }
+}

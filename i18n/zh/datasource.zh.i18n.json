@@ -1,0 +1,241 @@
+{
+  "account_usage": {
+    "hdfs_space":"上传空间"
+  },
+
+  "data_source": {
+    "my_data_sources": "我的数据源",
+    "add_new_data_source": "新建数据源",
+    "my_connections": "我的数据连接",
+    "add": "新建",
+    "delete": "删除",
+    "edit": "修改",
+    "upload": "上传",
+    "filter": {
+      "filter": "过滤 ...",
+      "search": "搜索 ..."
+    },
+
+    "category": {
+      "title": "类别",
+      "internal": "内部连接",
+      "database": "数据库",
+      "nosql": "NoSQL",
+      "hadoop": "Hadoop",
+      "cloud": "云"
+    },
+    "connection": {
+      "title": "连接",
+      "system": "系统HDFS",
+      "manage": "管理我的连接"
+    },
+    "format": {
+      "title": "格式",
+      "csv": "CSV",
+      "avro": "Avro",
+      "txt": "文本",
+      "commonlog": "Common Log",
+      "others": "未知"
+    },
+
+    "ds_table": {
+      "brand": "类型",
+      "name": "名称",
+      "description": "备注",
+      "connection": "连接",
+      "modified_date": "更新时间",
+      "operation": {
+        "title": "操作",
+        "edit": "编辑",
+        "remove": "删除"
+      }
+    },
+    "filter_bar": {
+      "name": "过滤",
+      "placeholder": "过滤 ..."
+    },
+    "button": {
+      "add": "新建",
+      "cancel": "取消",
+      "validate": "验证",
+      "save": "保存",
+      "start": "开始",
+      "submit": "提交",
+      "previous": "前一步",
+      "next": "下一步",
+      "close": "关闭"
+    },
+
+    "step1": {
+      "title": "步骤1、选择连接",
+      "title_file": "步骤1、上传文件",
+      "upload_file_name": "文件名称",
+      "upload_file_type": "文件类型",
+      "upload_file_button": "请选择文件",
+      "upload_file_drop_now": "请释放鼠标",
+      "upload_file_drop_here": "将文件拖拽到此区域",
+      "upload_file_exceed_limit_title": "检测到大文件",
+      "upload_file_exceed_limit_text": "是否继续上传？ 所选文件大小为: ",
+      "upload_file_exceed_limit_confirm": "继续上传",
+      "ds_name": "数据源名称",
+      "ds_description": "备注",
+      "conn_brand": "连接类型",
+      "conn_name": "我的连接",
+      "table_name": "连接名称",
+      "collection_name": "Collection名",
+      "table_description": "备注",
+      "table_metadata": "元数据",
+      "msg": {
+        "create_connection": "在创建新的数据源以前,请先创建一个数据连接!",
+        "select_connection": "请选择数据连接",
+        "select_connection_with_metadata": "请选择一个有元数据的数据连接"
+      }
+    },
+    "step2": {
+      "title": "步骤2、选定表",
+      "title_header": "步骤2、文件头",
+      "uploaded_path": "HDFS路径",
+      "ds_schema": "Schema",
+      "ds_database": "数据库",
+      "ds_table": "选定表",
+      "ds_url": "URL（全路径）",
+      "urlTitle": "步骤2、URL",
+      "schema_title": "Schema",
+      "table_title": "表",
+      "table_name": "表名",
+      "table_description": "备注",
+      "table_columns": "列数",
+      "table_row_count": "数据行数",
+      "column_no": "No.",
+      "column_original_name": "默认列名",
+      "column_label": "显示列名",
+      "data_type": "数据类型",
+      "raw_data": "Sample数据",
+      "low_value": "最小值",
+      "high_value": "最大值",
+      "msg": {
+        "select_table": "请选择表",
+        "invalidURL": "从URL中无法获取元数据，请检查URL"
+      }
+    },
+    "step3": {
+      "title": "步骤3、编辑列",
+      "title_header": "步骤3、文件头",
+      "schema_title": "Schema",
+      "database_title": "数据库",
+      "table_title": "表名",
+      "collection_name": "Collection",
+      "column_index": "序号.",
+      "column_name": "列名",
+      "column_label": "显示名",
+      "data_type": "类型",
+      "is_nullable": "是否有空值",
+      "low_value": "最小值",
+      "high_value": "最大值",
+      "default_value": "缺省",
+      "raw_data": "原始数据",
+      "msg": {
+        "blank_label": "请修改空的显示名",
+        "duplicated_label": "请修改同名的显示名"
+      }
+    },
+
+    "msg": {
+      "size": "大小",
+      "type": "类型",
+
+      "upload": {
+        "title": "文件上传",
+        "uploading": "上传中 ...",
+        "failed": "上传出错 !",
+        "success": "上传完成 !",
+        "file_name": "文件名称",
+        "file_size": "文件尺寸",
+        "btn_cancel": "取消",
+        "btn_upload": "开始"
+      },
+      "stats": {
+        "confirm": {
+          "title": "Stat 此数据源?",
+          "text_name": "名称",
+          "text_conn": "连接",
+          "text_type": "类型",
+          "btn_cancel": "取消",
+          "btn_confirm": "是, 开始Stat!"
+        },
+        "done": "数据源Stat操作成功 !",
+        "error": "数据源Stat操作失败!",
+        "error_connection": "连接失效了!"
+      },
+      "close": {
+        "confirm": {
+          "title": "确定关闭吗?",
+          "text": "未保存的数据将会丢失",
+          "btn_cancel": "取消",
+          "btn_confirm": "是, 关闭!"
+        }
+      },
+      "create": {
+        "no_connection": {
+          "title": "没有可用的连接",
+          "text": "创建新的连接吗 ?",
+          "btn_cancel": "取消",
+          "btn_confirm": "创建新连接"
+        },
+        "done": "新数据源创建成功",
+        "error_connection": "连接失效了!",
+        "error_same_name": "已有同名的的数据源!"
+      },
+      "update": {
+        "no_connection": {
+          "title": "没有可用的连接",
+          "text": "创建新的连接吗 ?",
+          "btn_cancel": "取消",
+          "btn_confirm": "创建新连接"
+        },
+        "done": "数据源更新了",
+        "error_connection": "连接失效了!",
+        "error_same_name": "已有同名的的数据源!"
+      },
+      "clone": {
+        "confirm": {
+          "title": "克隆数据源?",
+          "text_name": "名称",
+          "text_conn": "连接",
+          "text_type": "类型",
+          "btn_cancel": "取消",
+          "btn_confirm": "是, 克隆!"
+        },
+        "done": "新的数据源克隆成功!",
+        "error_connection": "连接失效了!",
+        "error_same_name":  "已有同名的的数据源!"
+      },
+      "save": {
+        "confirm": {
+          "title": "保存数据源?",
+          "text_name": "名称",
+          "text_conn": "连接",
+          "text_type": "类型",
+          "btn_cancel": "取消",
+          "btn_confirm": "是, 保存!"
+        },
+        "done": "数据源保存成功!",
+        "error_connection": "连接失效了!",
+        "error_same_name": "已有同名的的数据源!"
+      },
+      "remove": {
+        "confirm": {
+          "title": "删除数据源?",
+          "text_name": "名称",
+          "text_conn": "连接",
+          "text_type": "类型",
+          "btn_cancel": "取消",
+          "btn_confirm": "是, 删除!"
+        },
+        "done": "数据源已被删除了 !",
+        "error_hdfs": "删除HDFS文件失败!",
+        "error": "删除数据源失败!"
+      }
+    }
+  }
+}

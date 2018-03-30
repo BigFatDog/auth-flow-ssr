@@ -1,0 +1,15 @@
+{
+  "magicCube": {
+    "name": "魔方",
+    "toolbar": {
+      "delete": {
+        "title": "删除设计稿?",
+        "text": "删除后不可恢复!",
+        "delete": "删除",
+        "cancel": "取消",
+        "deleted": "完成!",
+        "deletedResult": "您的设计稿已删除."
+      }
+    }
+  }
+}

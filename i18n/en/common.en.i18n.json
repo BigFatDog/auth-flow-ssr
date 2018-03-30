@@ -1,0 +1,44 @@
+{
+  "header": {
+    "about": "About",
+    "login": "Login",
+    "logout": "Logout",
+    "english": "English",
+    "chinese": "中文",
+    "data": "Data",
+    "data_set": "data set",
+    "help": "help",
+    "settings": "Settings",
+    "community": "Community",
+    "video": "Contexual Intelligence",
+    "askQuestion": "Contact Us",
+    "restDoc": "Rest API",
+    "vis": "Visualization"
+  },
+
+  "module": {
+    "analysis": "analysis",
+    "mining": "mining",
+    "predict": "predict",
+    "cluster": "cluster",
+    "fusion": "fusion",
+    "path": "path",
+    "network": "network",
+    "geo": "geo",
+    "sentiment": "sentiment",
+    "prediction": "prediction",
+    "integration": "integration"
+  },
+  "common": {
+    "notFound": "Oops, the page you're looking for doesn't exist.",
+    "goToHome": "Go to Homepage",
+    "all": "All",
+    "error": "Error",
+    "done": "Done",
+    "running": "Running",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "previous": "Previous",
+    "next": "Next"
+  }
+}

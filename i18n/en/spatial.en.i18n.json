@@ -1,0 +1,24 @@
+{
+  "spatial": {
+    "map": {
+      "streetClassic": "Street Classic",
+      "light": "Light",
+      "comic": "Comic",
+      "dark": "Dark",
+      "emerald": "Emerald",
+      "highContrast": "High Contrast",
+      "outdoors": "Outdoors",
+      "pencil": "Pencil",
+      "pirates": "Pirates",
+      "bikeAndHike": "Bike and Hike",
+      "satellite": "Satellite",
+      "satelliteStreets": "Satellite Streets",
+      "streets": "Streets",
+      "wheatpaste": "Wheatpaste"
+    },
+    "country": {
+      "china": "China",
+      "us": "U.S. States"
+    }
+  }
+}

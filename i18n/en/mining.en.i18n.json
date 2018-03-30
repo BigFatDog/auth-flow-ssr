@@ -1,0 +1,30 @@
+{
+ "mining": {
+    "newMining": "New Mining",
+    "accuracy": "Model Accuracy",
+    "fScore"  : "Class F-Score",
+    "target"  : "Target",
+    "selectTarget": "Select one target",
+    "metric": "Metrics",
+    "algorithmGroup": {
+        "clustering": "Clustering Algorithms",
+        "classification": "Classification Algorithms",
+        "regression": "Regression Algorithms"
+    },
+
+   "forestRoot": "Forest Root",
+
+    "algorithm": {
+      "logisticRegression": "Logistic Regression",
+      "linearRegression": "Linear Regression",
+      "ridgeRegression": "Ridge Regression",
+      "lasso": "Lasso",
+      "decisionTree": "Decision Tree",
+      "gradientBoostedTrees": "Gradient Boosted Trees",
+      "randomForest": "Random Forest",
+      "svm": "Support Vector Machine",
+      "naiveBayes": "Naive Bayes",
+      "kmeans": "Kmeans"
+    }
+  }
+}

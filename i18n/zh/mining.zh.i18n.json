@@ -1,0 +1,25 @@
+{
+    "mining": {
+        "newMining": "新建挖掘",
+        "accuracy": "模型精准度",
+        "fScore": "F-Score分类",
+        "target": "目标",
+        "selectTarget": "选择一个目标",
+        "metric": "选择因子",
+
+        "forestRoot": "森林根节点",
+
+        "algorithm": {
+            "logisticRegression": "逻辑回归",
+            "linearRegression": "线性回归",
+            "ridgeRegression": "岭回归",
+            "lasso": "套索算法",
+            "decisionTree": "决策树",
+            "gradientBoostedTrees": "梯度提升决策树",
+            "randomForest": "随机森林",
+            "svm": "支持向量机",
+            "naiveBayes": "朴素贝叶斯",
+            "kmeans": "聚类"
+        }
+    }
+}

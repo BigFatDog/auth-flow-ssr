@@ -1,0 +1,125 @@
+{
+  "setting": {
+    "title": "设置",
+    "common": {
+      "true": "是",
+      "false": "否",
+      "yes": "是",
+      "no": "否"
+    },
+    "profile": {
+      "profile": "账户",
+      "change_pass": "修改密码",
+      "passwordNotMatch": "密码不匹配",
+      "passwordNotMatchText": "请再试",
+      "passwordDone": "密码已修改。",
+      "passwordErr": "出错了，密码未修改",
+      "passwordNotEmpty": "所有密码都不能为空",
+      "passwordNotRight": "提供原密码不正确",
+      "oldPass": "原密码",
+      "newPass": "新密码",
+      "confirmPass": "确认密码"
+    },
+    "menu": {
+      "system": "系统",
+      "InternalSpark": "Spark",
+      "InternalHDFS": "HDFS",
+      "InternalDataSource": "数据源服务",
+      "my_connection": "数据连接",
+      "theme": "主题",
+      "integration": "集成",
+      "InternalHDFSMasterNode": "HDFS主节点"
+    },
+
+    "theme": {
+      "saveDoneTitle": "完成",
+      "saveDoneText": "设置已保存"
+    },
+
+    "spark": {
+      "protocol": "通信协议",
+      "protocol_select": "(通信协议)",
+      "host": "主机地址",
+      "port": "端口号",
+      "debug": "调试",
+      "debug_select": "(调试)",
+      "timeout": "超时(秒)",
+      "num_cpu_cores": "CPU核心数",
+      "memory_per_node": "每个节点的内存",
+      "executor_instances": "Spark并行数"
+    },
+
+    "hdfs": {
+      "masterNode": "主节点名称",
+      "protocol": "通信协议",
+      "protocol_select": "(通信协议)",
+      "host": "主机地址",
+      "port": "端口号",
+      "path": "默认路径",
+      "uploadPath": "上传路径",
+      "user": "代理用户名"
+    },
+
+    "datasource_service": {
+      "protocol": "通信协议",
+      "protocol_select": "(通信协议)",
+      "host": "主机",
+      "port": "端口",
+      "path": "REST路径",
+      "external": "外网地址"
+    },
+
+
+    "integration": {
+      "system": "系统内置",
+      "customized": "自定义",
+      "new": "新建连接器",
+      "designerInput": "输入",
+      "designerOutput": "输出",
+      "operationConnector": "操作连接器",
+      "copyFromTemplate": "根据模板创建",
+      "createFromScratch": "自由创建",
+      "createInspector": "创建查看器",
+      "systemInspector": "选择系统内置连接器",
+      "detailPage": "详情",
+      "createPage": "创建新的连接器",
+      "editPage": "编辑连接器",
+      "create": {
+        "basic": "基本信息",
+        "inspector": "属性查看器(可选)",
+        "name": "名称",
+        "type": "类型",
+        "category": "分组",
+        "class": "类全称"
+      },
+      "inspector": {
+        "name": "名称",
+        "type": "类型",
+        "label": "标签",
+        "group": "分组",
+        "tooltip": "悬浮提示框",
+        "en": "英文",
+        "zh": "中文"
+      }
+    },
+
+    "modal": {
+      "successTitle": "完成",
+      "saveSuccess": "连接器已保存，可以在集成中使用",
+      "updateSuccess": "连接器已更新",
+      "warningTitle": "警告",
+      "missingFields": "所有字段必填",
+      "discardEdit": "舍弃当前编辑？"
+    },
+
+    "button": {
+      "default": "系统默认值",
+      "refresh": "刷新",
+      "save": "保存",
+      "reset": "重置",
+      "add": "增加",
+      "cancel": "取消",
+      "discard": "舍弃"
+    }
+  }
+}

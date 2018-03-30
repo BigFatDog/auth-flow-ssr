@@ -1,0 +1,242 @@
+{
+  "data_connection": {
+    "select_one": "(请选择)",
+    "InternalHDFS": "系统HDFS",
+    "InternalSpark": "系统Spark",
+    "InternalDataSource": "数据源服务",
+    "sharedHDFS": "系统HDFS",
+    "defaultHDFSConnection": "可共享的连接",
+    "add_new_connection": "新建连接",
+    "my_connections": "我的连接",
+    "invalid": "[无效连接]",
+    "add": "新建",
+    "delete": "删除",
+    "edit": "修改",
+    "upload": "上传",
+    "type": "类型",
+    "brand_select": "连接类型",
+    "category": {
+      "title": "类别",
+      "internal": "内部连接",
+      "database": "数据库",
+      "nosql": "NoSQL",
+      "hadoop": "Hadoop",
+      "cloud": "云"
+    },
+
+    "brand": {
+      "title": "连接类型",
+      "service": "内部服务",
+      "spark": "Spark",
+
+      "aster": "AsterData",
+      "db2": "IBM DB2",
+      "mysql": "MySQL",
+      "oracle": "Oracle",
+      "postgresql": "PGSQL",
+      "sqlserver": "SQL Server",
+      "teradata": "Teradata",
+      "vertica": "HP Vertica",
+
+      "cassandra": "Cassandra",
+      "couchbase": "Couchbase",
+      "mongodb": "芒果DB",
+      "redis": "Redis",
+
+      "hbase": "HBase",
+      "hcatalog": "HCatalog",
+      "hdfs": "HDFS",
+      "hive": "Hive",
+      "hdfs_upload": "上传",
+
+      "dynamodb": "DynamoDB",
+      "simpledb": "SimpleDB",
+      "s3": "S3",
+      "amazon_mysql_rds": "亚马逊 MySQL",
+      "amazon_oracle_rds": "亚马逊 Oracle",
+      "amazon_sqlserver_rds": "亚马逊 SQLServer",
+      "aliyun_mysql_rds": "阿里云 MySQL",
+      "aliyun_postgresql_rds": "阿里云 PGSQL"
+    },
+
+    "name": "名称",
+    "description": "备注",
+    "owner": "所属用户",
+    "size": "大小",
+    "created_date": "创建时间",
+    "modified_date": "更新时间",
+    "input_format": "格式",
+    "format": {
+      "title": "格式",
+      "csv": "CSV",
+      "avro": "Avro",
+      "txt": "文本",
+      "commonlog": "Common Log",
+      "others": "未知"
+    },
+
+    "hasMetadata": {
+      "title": "元数据",
+      "true": "有",
+      "false": "无"
+    },
+
+    "operation": {
+      "title": "操作",
+      "add": "新建连接",
+      "edit": "修改数据连接",
+      "save": "保存",
+      "update": "更新",
+      "remove": "删除数据连接",
+      "upload": "上传",
+      "import": "导入连接配置",
+      "export": "导出连接配置",
+      "validation": "验证",
+      "connect": "连接",
+      "valid_manual": "手动",
+      "valid_auto": "自动",
+      "back_to_my_data_source": "转到我的数据源",
+      "back_to_my_connection": "转到我的连接"
+    },
+    "config": {
+      "host": "主机",
+      "port": "端口号",
+      "schema": "Schema",
+      "database": "数据库",
+      "username": "用户名",
+      "password": "密码",
+      "timeout": "超时（秒）",
+      "protocol": "协议",
+      "hosts": "集群主机",
+      "domains": "域",
+      "domain_ranges": "域区间",
+      "uri": "主机地址",
+      "url": "连接",
+      "auth_uri": "认证主机地址",
+      "bucket": "Bucket",
+      "conf_path": "配置文件路径",
+      "input_path": "文件路径",
+      "input_format": "文件格式",
+      "data_schema": "列名类型定义，限text、csv、line。",
+      "credentials_file": "认证文件",
+      "maxReader": "最大读取连接数",
+      "maxWriter": "最大写入连接数"
+    },
+
+    "button": {
+      "cancel": "取消",
+      "create": "创建",
+      "delete": "删除",
+      "confirm": "确认"
+    },
+
+    "validate": {
+      "button": {
+        "cancel": "取消",
+        "confirm": "验证"
+      },
+      "msg": {
+        "title": "验证连接?",
+        "host": "主机",
+        "brand": "连接类型",
+        "connecting": "连接中 ..."
+      }
+    },
+
+    "create": {
+      "button": {
+        "cancel": "取消",
+        "confirm": "创建"
+      },
+
+      "msg": {
+        "title": "确认创建新连接?",
+        "host": "主机",
+        "brand": "连接类型",
+        "progressing": "保存连接 ...",
+        "done": "创建连接成功!"
+      }
+    },
+
+    "update": {
+      "button": {
+        "cancel": "取消",
+        "confirm": "更新"
+      },
+
+      "msg": {
+        "title": "更新连接吗?",
+        "host": "主机",
+        "brand": "连接类型",
+        "progressing": "更新连接信息 ...",
+        "done": "更新连接成功!"
+      }
+    },
+
+    "update_meta": {
+      "button": {
+        "cancel": "取消",
+        "confirm": "更新"
+      },
+
+      "title": {
+        "ok": "成功",
+        "ng": "失败"
+      },
+
+      "msg": {
+        "ng": "更新元数据失败!",
+        "ok": "更新元数据成功!",
+        "host": "主机",
+        "brand": "连接类型",
+        "progressing": "更新 ...",
+        "conn_ng": "连接失败",
+        "null": "不能取得元数据"
+      }
+    },
+
+    "msg": {
+      "title": {
+        "error_server": "服务器出错了",
+        "error_connection": "连接出错了",
+        "unsupported": "尚未支持",
+        "ok": "成功",
+        "ng": "失败",
+        "error": "出错了",
+        "info": "信息",
+        "done": "完成",
+        "warning": "注意",
+        "confirm": "确认",
+        "confirm_delete": "确认删除?"
+      },
+
+      "validate_con_ok": "连接成功!",
+      "validate_con_ng": "连接失败!",
+      "create_con_ok": "数据连接保存成功!",
+      "create_con_ng": "建立数据连接失败!",
+      "update_ok": "数据更新成功!",
+      "update_ng": "数据更新失败!",
+      "update_meta_ok": "更新元数据成功!",
+      "update_meta_ng": "不能取得元数据!",
+      "unsupported_connection": "尚未支持的连接类型!",
+      "exist_same_name_connection": "已有同名的数据连接!",
+      "delete_con_ok": "数据连接已经被删除!",
+      "not_able_recovery_deleted_con": "已删除的数据连接不可恢复!",
+
+      "common": {
+        "insert": {
+          "done": "数据提交了!",
+          "error": "数据提交失败!"
+        },
+        "update": {
+          "done": "数据更新了!",
+          "error": "数据更新失败!"
+        },
+        "delete": {
+          "done": "数据已经删除!",
+          "error": "数据删除失败!"
+        }
+      }
+    }
+  }
+}

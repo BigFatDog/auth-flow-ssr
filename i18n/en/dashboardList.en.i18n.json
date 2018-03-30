@@ -1,0 +1,18 @@
+{
+  "dashboardList": {
+    "action": {
+      "viewAll": "View All",
+      "favorites": "Favorites",
+      "myItems": "My Items",
+      "sharedWithMe": "Shared With Me",
+      "published": "My Published",
+      "searchAll": "Search All",
+      "new": "New",
+      "singleDsDashboard": "Single DataSource",
+      "multiDsDashboard": "Hybrid DataSource",
+      "sortBy": "Sort By",
+      "open": "Open"
+
+    }
+  }
+}

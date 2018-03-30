@@ -1,0 +1,124 @@
+{
+  "setting": {
+    "title": "Setting",
+    "common": {
+      "true": "YES",
+      "false": "NO",
+      "yes": "YES",
+      "no": "NO"
+    },
+    "profile": {
+      "profile": "Profile",
+      "change_pass": "Change Password",
+      "passwordNotMatch": "Password not match",
+      "passwordNotMatchText": "Please try again",
+      "passwordDone": "Your password has been changed. Welcome back!",
+      "passwordErr": "Error occurred, your password remains unchanged",
+      "passwordNotEmpty": "All passwords cannot be empty",
+      "passwordNotRight": "Original password is incorrect",
+      "oldPass": "Old Password",
+      "newPass": "New Password",
+      "confirmPass": "Confirm Password"
+    },
+    "menu": {
+      "system": "System",
+      "InternalSpark": "Spark",
+      "InternalHDFS": "HDFS",
+      "InternalDataSource": "DataSource Service",
+      "my_connection": "Connections",
+      "theme": "Theme",
+      "integration": "Integration",
+      "InternalHDFSMasterNode": "HDFS Master Node"
+    },
+
+    "theme": {
+      "saveDoneTitle": "Done",
+      "saveDoneText": "Setting has been saved"
+    },
+
+    "spark": {
+      "protocol": "Protocol",
+      "protocol_select": "(Select a Protocol)",
+      "host": "Host",
+      "port": "Port",
+      "debug": "Debug",
+      "debug_select": "(Debug)",
+      "timeout": "Timeout (second)",
+      "num_cpu_cores": "CPU Core Number",
+      "memory_per_node": "Memory Per Node",
+      "executor_instances": "Executor Instances"
+    },
+
+    "hdfs": {
+      "masterNode": "Master Node",
+      "protocol": "Protocol",
+      "protocol_select": "(Select a Protocol)",
+      "host": "Host",
+      "port": "Port",
+      "path": "Path",
+      "uploadPath": "Upload Path",
+      "user": "Proxy User"
+    },
+
+    "datasource_service": {
+      "protocol": "Protocol",
+      "protocol_select": "(Select a Protocol)",
+      "host": "Host",
+      "port": "Port",
+      "path": "Path",
+      "external": "External IP"
+    },
+
+    "integration": {
+      "system": "system",
+      "customized": "customized",
+      "new": "new connector",
+      "designerInput": "Input Connector",
+      "designerOutput": "Output Connector",
+      "operationConnector": "Operation Connector",
+      "copyFromTemplate": "Create From Template",
+      "createFromScratch": "Create From Scratch",
+      "createInspector": "Create Inspector",
+      "systemInspector": "Choose from system connectors",
+      "detailPage": "Details",
+      "createPage": "Create New Connector",
+      "editPage": "Edit Connector",
+      "create": {
+          "basic": "Basic",
+          "inspector": "Inspector",
+          "name": "Name",
+          "type": "Type",
+          "category": "Category",
+          "class": "Class"
+      },
+      "inspector": {
+        "name": "Name",
+        "type": "Type",
+        "label": "Label",
+        "group": "Group",
+        "tooltip": "Tooltip",
+        "en": "en",
+        "zh": "zh"
+      }
+    },
+
+    "modal": {
+      "successTitle": "Done",
+      "saveSuccess": "Connector has been saved and is ready to be used in Integration",
+      "updateSuccess": "Connector has been updated",
+      "warningTitle": "Warning",
+      "missingFields": "All fields are mandatory",
+      "discardEdit": "Discard current editing？"
+    },
+
+    "button": {
+      "default": "System Default",
+      "refresh": "Refresh",
+      "save": "Save",
+      "reset": "Reset",
+      "add": "Add",
+      "cancel": "Cancel",
+      "discard": "Discard"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "themes": "Themes",
+  "theme": {
+    "auto": "Auto",
+    "bubble": "Bubble",
+    "blackWeb": "Black Web",
+    "blackGrunge": "Black",
+    "watercolorBlue": "Blue",
+    "watercolorGold": "Gold",
+    "watercolorGreen": "Green",
+    "watercolorRed": "Red",
+    "watercolorColorful1": "Colorful 1",
+    "watercolorColorful2": "Colorful 2",
+    "watercolorYellow": "Yellow",
+    "watercolorPurple": "Purple"
+  }
+}

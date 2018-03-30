@@ -1,0 +1,17 @@
+{
+  "apolloLogging": true,
+  "apolloEngineKey":"service:BigFatDog-ExceedAI:e55Zs41Os6r64YKIzGFkHQ",
+  "graphqlUrl": "http://localhost:3010/graphql",
+  "wsURI": "ws:localhost:5000/graphql",
+  "port": 3030,
+  "wsPort": 5000,
+  "mongodb": {
+    "url": "mongodb://localhost:27017/exceed-ai",
+    "username": null,
+    "password": null
+  },
+  "tokenExpire": "180 days",
+  "loggLevel": "info",
+  "loggerPath": "",
+  "SECRET": "exceed-ai"
+}

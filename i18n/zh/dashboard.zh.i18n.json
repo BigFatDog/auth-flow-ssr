@@ -1,0 +1,166 @@
+{
+  "dashboard": {
+    "bulletinBoard": {
+      "demo": "示例",
+      "favorite": "收藏夹",
+      "recent": "历史记录",
+      "goBack": "回退",
+      "viewAll": "显示所有",
+      "recommendations": "推荐"
+    },
+
+    "workbench": {
+      "autoRefreshIsOn": "自动刷新已开启",
+      "autoRefreshIsOff": "自动刷新已关闭",
+      "delete": "删除",
+      "clear": "清除",
+      "removeFromFavorites": "移出收藏",
+      "addToFavorites": "收藏",
+      "save": "保存",
+      "clone": "另存为",
+      "export": "导出",
+      "snapshot": "快照",
+      "refresh": "更新",
+      "dataRefreshedAt": "数据获取日期: ",
+      "refreshWarningTitle": "当前所有未保存修改会被丢弃",
+      "refreshWarning": "执行刷新会丢弃当前所有未保存修改并且重新获取数据，是否继续？",
+      "integrationEditor": "绘制",
+      "brokenDesign": "设计稿信息缺失，图形刷新失败",
+      "chartLoading": "图形绘制中...",
+      "brokenChartTitle": "此图形包含损坏数据",
+      "brokenChartText": "损坏的图形无法操作，请删除",
+      "brokenChartsTitle": "一些图形的数据已损坏",
+      "brokenChartsText": "损坏的数据源于图形的数据源已经被系统管理员删除。这些损坏不可修复，现在就删除所有损坏的图形？",
+      "brokenChartsSuccessTitle": "已删除",
+      "brokenChartsSuccessText": "所有损坏的图形已永久删除",
+      "share": {
+         "title": "分享图形",
+         "text": "链接已经生成, 地址为",
+         "confirm": "在新窗口中打开"
+      },
+      "import": "导入",
+      "createDesign": "创建设计",
+      "enterWorkbench": "进入工作台"
+    },
+
+    "menu": {
+      "changeChartType": "更换图表",
+      "addVisualization": "添加分析",
+      "newDashboard": "创建仪表盘",
+      "dataSource": "数据源",
+      "chartType": "图表类型",
+      "selectAttribute": "选取字段",
+      "seriesData": "单个Y",
+      "multiYData": "多个Y",
+      "filter": "过滤器",
+      "seriesLabel": "分组(点击选择)",
+      "xAxisLabel": "维度(点击选择)",
+      "lengthLabel": "距离(点击选择)",
+      "startLabel": "起始(点击选择)",
+      "heightLabel": "高度(点击选择)",
+      "yAxisLabel": "指标(点击选择)",
+      "zAxisLabel": "次指标(点击选择, 可选)",
+      "missingXAxisTitle": "维度未设定",
+      "missingXAxisDescription": "请选择一个维度",
+      "missingYAxisTitle": "指标未设定",
+      "missingYAxisDescription": "请选择一个指标",
+      "missingZAxisTitle": "次指标未设定",
+      "missingZAxisDescription": "确认只用维度和指标画散点图?",
+      "confirm": "确认",
+      "cancel": "取消",
+      "plot": "绘制",
+      "path": {
+        "node": "节点",
+        "source": "来源节点",
+        "target": "目标节点",
+        "relationMetric": "指标 1",
+        "relationMetricSecondary": "指标 2"
+      },
+      "cluster": {
+        "features": "聚类数据集"
+      }
+    },
+
+    "save": {
+      "title": "保存",
+      "description": "请命名",
+      "defaultInput": "新建工作台",
+      "defaultAnalysisInput": "新建统计分析",
+      "defaultMiningInput": "新建挖掘分析",
+      "defaultPredictionInput": "新建预测分析",
+      "defaultRealTimeInput": "新建实时分析",
+      "defaultDesign": "新建设计稿",
+      "defaultPathInput": "新建路径分析",
+      "defaultSpatialInput": "新建地理分析",
+      "emptyNameWarning": "命名不能为空",
+      "duplicateNameWarning": "和已有工作台名字重复，请重新命名",
+      "success": "完成",
+      "result": "工作台已保存",
+      "resultAnalysis": "您的统计分析已保存",
+      "resultMining": "您的挖掘分析已保存",
+      "resultPrediction": "您的预测分析已保存",
+      "resultRealtime": "您的实时分析已保存",
+      "resultPath": "您的路径分析已保存",
+      "resultDesign": "您的设计稿已保存",
+      "resultSpatial": "您的地理分析已保存",
+      "noChartsTitle": "无需保存",
+      "noChartsText": "工作区空白,请添加图形再保存"
+    },
+
+    "delete": {
+      "resultAnalysis": "统计已删除",
+      "resultMining": "挖掘已删除",
+      "resultPrediction": "预测已删除",
+      "resultRealtime": "实时分析已删除",
+      "resultPath": "路径分析已删除",
+      "resultSpatial": "空间分析已删除",
+      "result": "工作台已删除",
+      "title": "确定删除?",
+      "text": "删除后不可恢复!",
+      "delete": "删除",
+      "cancel": "取消",
+      "deleted": "已删除!",
+      "success": "完成"
+    },
+
+    "editor": {
+      "loading": "正在重新分析数据...",
+      "pane": {
+        "series": "分组",
+        "xAxis": "维度",
+        "yAxis": "指标",
+        "zAxis": "次指标",
+        "source": "开始节点",
+        "target": "目标节点",
+        "miningTarget": "目标",
+        "miningAlgorithm": "算法"
+      }
+    },
+
+    "panel": {
+      "newChartTitle": "新建图形",
+      "loading": "绘制中,请稍候",
+      "brokenChart": "图形数据错误，绘图的数据源已经失效。"
+    },
+
+    "popup": {
+        "dimension": "维度",
+        "attribute": "字段",
+        "series": "分组",
+        "metric": "指标",
+        "number": "数字",
+        "count": "分布",
+        "sum": "总和",
+        "min": "最小",
+        "max": "最大",
+        "avg": "平均",
+        "statistics": "统计",
+        "selectAll": "全选"
+    },
+
+    "common": {
+        "busy": "任务运行中",
+        "pleaseWait": "正在依照配置执行任务，请等待任务结束"
+    }
+  }
+}

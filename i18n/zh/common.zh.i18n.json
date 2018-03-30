@@ -1,0 +1,47 @@
+{
+  "header": {
+    "about": "关于",
+    "login": "登入",
+    "logout": "退出",
+    "sign_up": "注册",
+    "english": "English",
+    "chinese": "中文",
+    "name": "名称",
+    "data": "数据",
+    "data_set": "数据文件",
+    "settings": "设置",
+    "community": "社区",
+    "account": "账户",
+    "help": "帮助",
+    "video": "场景智能视频",
+    "askQuestion": "联系我们",
+    "restDoc": "API文档",
+    "vis": "超越可视化"
+  },
+
+  "module": {
+    "analysis": "统计",
+    "mining": "挖掘",
+    "path": "行为",
+    "network": "关系",
+    "geo": "地理",
+    "sentiment": "舆情",
+    "integration": "集成工作",
+    "prediction": "预测",
+    "cluster": "聚类",
+    "fusion": "聚合"
+  },
+
+  "common": {
+    "notFound": "此页面不存在",
+    "goToHome": "回到首页",
+    "all": "全部",
+    "previous": "上一步",
+    "next": "下一步",
+    "error": "错误",
+    "done": "完成",
+    "running": "运行中",
+    "apply": "应用",
+    "cancel": "取消"
+  }
+}

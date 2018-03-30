@@ -1,0 +1,17 @@
+{
+  "dashboardList": {
+    "action": {
+      "viewAll": "显示所有",
+      "favorites": "收藏夹",
+      "myItems": "我的分析",
+      "sharedWithMe": "其他人的分享",
+      "published": "已经发布",
+      "searchAll": "搜索",
+      "new": "新建",
+      "singleDsDashboard": "单一数据源",
+      "multiDsDashboard": "混合数据源",
+      "sortBy": "排序",
+      "open": "打开"
+    }
+  }
+}

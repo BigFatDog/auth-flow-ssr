@@ -1,0 +1,166 @@
+{
+  "dashboard": {
+    "bulletinBoard": {
+      "demo": "Demo",
+      "favorite": "Favorites",
+      "recent": "Recent Activities",
+      "goBack": "Go Back",
+      "viewAll": "View All",
+      "recommendations": "Recommendations"
+    },
+
+    "workbench": {
+      "autoRefreshIsOn": "Auto Refresh is On",
+      "autoRefreshIsOff": "Auto Refresh is Off",
+      "clear": "Clear",
+      "delete": "Delete",
+      "addToFavorites": "Add To Favorites",
+      "removeFromFavorites": "Remove from Favorites",
+      "save": "Save",
+      "clone": "Duplicate",
+      "export": "Export",
+      "snapshot": "Snapshot",
+      "refresh": "Refresh",
+      "dataRefreshedAt": "Data is retrieved at: ",
+      "refreshWarningTitle": "All un-saved modifications will be discarded",
+      "refreshWarning": "All un-saved modifications will be discarded before refreshing, continue?",
+      "integrationEditor": "Draw",
+      "chartLoading": "Visualization is coming in a few seconds...",
+      "brokenDesign": "Charts cannot be refreshed due to missing design",
+      "brokenChartTitle": "This chart contains invalid data",
+      "brokenChartText": "No operations are allowed on broken charts, please remove them",
+      "brokenChartsTitle": "Some charts contains invalid data",
+      "brokenChartsText": "Invalid data are caused by missing data source. This failure cannot be recovered, remove broken charts right now?",
+      "brokenChartsSuccessTitle": "Deleted",
+      "brokenChartsSuccessText": "All broken charts have been removed from this dashboard permanently",
+      "share": {
+        "title": "Share Graph",
+        "text": "Permanent link is:",
+        "confirm": "Open in new window"
+      },
+      "import": "Import",
+      "createDesign": "Create Design",
+      "enterWorkbench": "Enter Workbench"
+    },
+
+    "menu": {
+      "changeChartType": "Change Visualization",
+      "addVisualization": "Add Visualization",
+      "newDashboard": "Create Dashboard",
+      "dataSource": "Data Source",
+      "chartType": "Chart Type",
+      "selectAttribute": "Select Attribute",
+      "seriesData": "Series",
+      "multiYData": "Multi-Y",
+      "filter": "Filters",
+      "seriesLabel": "Series",
+      "lengthLabel": "Length",
+      "startLabel": "Start",
+      "heightLabel": "Height",
+      "xAxisLabel": "Dimension",
+      "yAxisLabel": "Metric",
+      "zAxisLabel": "Secondary Metric (Opt.)",
+      "missingXAxisTitle": "Dimension is not set",
+      "missingXAxisDescription": "Please select a dimension",
+      "missingYAxisTitle": "Metric is not set",
+      "missingYAxisDescription": "Please select a metric",
+      "missingZAxisTitle": "Secondary metric is not set",
+      "missingZAxisDescription": "Draw a scatter plot without secondary metric?",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "plot": "Plot",
+      "path": {
+        "node": "Node",
+        "source": "Source",
+        "target": "Target",
+        "relationMetric": "Metric 1",
+        "relationMetricSecondary": "Metric 2"
+      },
+      "cluster": {
+          "features": "Features"
+      }
+    },
+
+    "save": {
+      "title": "Save your workbench",
+      "description": "Write something interesting:",
+      "defaultInput": "New Workbench Item",
+      "defaultAnalysisInput": "New Analysis",
+      "defaultMiningInput": "New Mining",
+      "defaultPredictionInput": "New Prediction",
+      "defaultRealTimeInput": "New Realtime",
+      "defaultDesign": "New Design",
+      "defaultPathInput": "New Path",
+      "defaultSpatialInput": "New Spatial Analysis",
+      "emptyNameWarning": "Name cannot be empty",
+      "duplicateNameWarning": "Name has been already taken by another workbench",
+      "success": "Success",
+      "result": "Your workbench has been saved",
+      "resultAnalysis": "Your report has been saved",
+      "resultMining": "Your mining analysis has been saved",
+      "resultPrediction": "Your prediction analysis has been saved",
+      "resultRealtime": "Your realtime analysis has been saved",
+      "resultPath": "Your path analysis has been saved",
+      "resultDesign": "Your integration design has been saved",
+      "resultSpatial": "Your spatial analysis has been saved",
+      "noChartsTitle": "No Need to Save",
+      "noChartsText": "Dashboard is empty, please add visualizations and save"
+    },
+
+    "delete": {
+      "resultAnalysis": "Your report has been deleted",
+      "resultMining": "Your mining analysis has been deleted",
+      "resultPrediction": "Your prediction analysis has been deleted",
+      "resultRealtime": "Your realtime analysis has been deleted",
+      "resultPath": "Your path analysis has been deleted",
+      "resultSpatial": "Your spatial analysis has been deleted",
+      "result": "Your integration design has been deleted",
+      "text": "Once deleted, integration design cannot be recovered!",
+      "title": "Are you sure?",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "success": "Done",
+      "deleted": "Deleted!"
+    },
+
+    "editor": {
+      "loading": "Analyzing data...",
+      "pane": {
+          "series": "Series",
+          "xAxis": "Dimension",
+          "yAxis": "Metric",
+          "zAxis": "Secondary Metric",
+          "source": "Source",
+          "target": "Target",
+          "miningTarget": "Target",
+          "miningAlgorithm": "Algorithm"
+      }
+    },
+
+    "panel": {
+      "newChartTitle": "New Chart",
+      "loading": "Visualization is coming in a few seconds...",
+      "brokenChart": "Chart cannot be plotted due to invalid data source."
+    },
+
+    "popup": {
+      "dimension": "Dimension",
+      "attribute": "Attribute",
+      "series": "Series",
+      "metric": "Metric",
+      "number": "Number",
+      "count": "Count",
+      "sum": "Sum",
+      "min": "Min",
+      "max": "Max",
+      "avg": "Avg",
+      "statistics": "Statistics",
+      "selectAll": "Select All"
+    },
+
+    "common": {
+      "busy": "Background Job is running",
+      "pleaseWait": "Configured job is being executed underneath, please with until it completes"
+    }
+  }
+}
