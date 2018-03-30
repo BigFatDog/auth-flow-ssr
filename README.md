@@ -1,5 +1,6 @@
 # Full stack auth flow with server side rendering
 
+If you're looking for a non-ssr version, please check [auth-flow-react-apollo-saga](https://github.com/BigFatDog/auth-flow-react-apollo-saga)
 
 # Main features (enabled by nextjs)
 * Server Side Rendering
