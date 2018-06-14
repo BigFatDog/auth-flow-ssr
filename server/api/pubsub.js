@@ -1,9 +1,9 @@
-import { addApolloLogging } from 'apollo-logger';
+import { wrapPubSub } from 'apollo-logger';
 import { PubSub } from 'graphql-subscriptions';
 
 const pubsub =
   process.env.NODE_ENV === 'production'
-    ? addApolloLogging(new PubSub())
+    ? wrapPubSub(new PubSub(), { logger: console.log })
     : new PubSub();
 
 export default pubsub;
